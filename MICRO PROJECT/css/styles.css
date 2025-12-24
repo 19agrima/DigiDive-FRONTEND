@@ -1,0 +1,540 @@
+html
+{
+  overflow-x: hidden;
+}
+
+body
+{
+  margin: 0;
+  background-color: #fafafa;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+a
+{
+  color: black;
+  text-decoration: none;
+}
+
+.wrapper
+{
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.back_top
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: visible;
+}
+
+.back_bottom
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  overflow: visible;
+}
+
+.body_content
+{
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.logo_icon
+{
+  float: left;
+}
+
+.navbar_cover
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 22%;
+  background-color: rgba(250, 250, 250, 0.5);
+  z-index: 1000;
+}
+
+.sidenav {
+  font-weight: 200;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #FAFAFA;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 40px;
+}
+
+.sidenav a {
+  font-size: 1em;
+  padding: 8px 8px 8px 30px;
+  display: block;
+  text-transform: uppercase;
+  transition: color 0.5s;
+}
+
+.sidenav a:hover {
+  color: #4F814F;
+  transition: color 0.5s;
+}
+
+.sidenav
+{
+  display: none;
+}
+
+.nav_back
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.navbar
+{
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  z-index: 1000;
+}
+
+.logo
+{
+	position: absolute;
+}
+
+.ephemera
+{
+  letter-spacing: 4px;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 2.2em;
+}
+
+.studios
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	letter-spacing: 3px;
+}
+
+.flex_icons
+{
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.icon
+{
+  margin-left: 60px;
+  transition: color 0.5s;
+}
+
+.close img
+{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 30px;
+}
+
+.flex_icons .menu
+{
+  display: none;
+}
+
+.flex_icons .icon img
+{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.flex_icons .icon:hover
+{
+  cursor: pointer;
+  color: #4F814F;
+  transition: color 0.5s;
+}
+
+.paper_container
+{
+  margin: 20% auto 10% 10%;
+  width: 60%;
+}
+
+.paperless_container
+{
+  width: 60%;
+  margin: 10% 10% 10% auto;
+}
+
+.paper_deco
+{
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  width: 350px;
+  height: 350px;
+}
+
+.paperless_deco
+{
+  float: right;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  width: 350px;
+  height: 350px;
+}
+
+.paper_desc, .paperless_desc
+{
+  padding: 15% 0 15% 0;
+  font-weight: 200;
+  font-size: 1.1em;
+}
+
+.paper_desc a, .paperless_desc a
+{
+  color: #4F814F;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: color 0.5s;
+}
+
+.paper_desc a:hover, .paperless_desc a:hover
+{
+  font-size: 0.9em;
+  color: #D9B09D;
+  transition: color 0.5s;
+}
+
+.paperless_desc
+{
+  text-align: right;
+}
+
+.products_container
+{
+  width: 90%;
+  margin: auto;
+}
+
+.products_container .heading
+{
+  padding-top: 5%;
+  color: #4F814F;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.products_categories
+{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products_categories img
+{
+  border-radius: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+.products_categories a
+{
+  color: #4F814F;
+  font-weight: 400;
+  transition: color 0.5s;
+}
+
+.products_categories a:hover
+{
+  color: #D9B09D;
+  transition: color 0.5s;
+}
+
+.one, .two, .three
+{
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.footer
+{
+  font-weight: 200;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 0.7em;
+  width: 90%;
+  margin: 10% auto 3% auto;
+}
+
+.footer-links ul
+{
+  list-style: none;
+}
+
+.footer-links ul li
+{
+  list-style: none;
+  display: inline;
+  padding-right: 15px;
+}
+
+.footer-links ul li a
+{
+  letter-spacing: 1px;
+  transition: color .5s;
+}
+
+.footer-links ul li a:hover
+{
+  color: #4F814F;
+  transition: color .5s;
+}
+
+.footer-payment
+{
+  padding-top: 10px;
+  padding-left: 10%;
+}
+
+@media only screen and (max-width: 1080px)
+{
+  .body_content, .wrapper
+  {
+    overflow-x: hidden;
+  }
+
+  .paper_container
+  {
+    margin-top: 25%;
+  }
+}
+
+@media only screen and (max-width: 900px)
+{
+  .body_content, .wrapper
+  {
+    overflow-x: hidden;
+  }
+
+  .paper_container
+  {
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) and (orientation: portrait)
+{
+  .body_content, .wrapper
+  {
+    overflow-x: hidden;
+  }
+
+  .paper_container
+  {
+    overflow-x: hidden;
+    margin-top: 35%;
+  }
+
+  .paper_desc p
+  {
+    clear: left;
+  }
+
+  .paperless_desc p
+  {
+    clear: right;
+  }
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape)
+{
+  .navbar_cover
+  {
+    height: 35%;
+  }
+}
+
+@media only screen and (max-width: 700px)
+{
+  .body_content, .wrapper
+  {
+    overflow-x: hidden;
+  }
+
+  .paper_container
+  {
+    overflow-x: hidden;
+    margin-top: 43%;
+  }
+
+  .flex_icons .menu
+  {
+    display: block;
+  }
+
+  .sidenav
+  {
+    display: block;
+  }
+
+  .flex_icons .home, .search, .shop, .faq, .cart, .person
+  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px)
+{
+  .body_content, .wrapper
+  {
+    overflow-x: hidden;
+    text-align: center;
+  }
+
+  .paper_deco
+  {
+    float: none;
+    width: 350px;
+    height: 350px;
+    margin: 0;
+  }
+
+  .paperless_deco
+  {
+    float: none;
+    width: 350px;
+    height: 350px;
+    margin: 0;
+  }
+
+  .paperless_container, .paper_container
+  {
+    overflow-x: hidden;
+    width: auto;
+    margin: 0;
+  }
+
+  .paper_container
+  {
+    margin-top: 30%;
+  }
+
+  .paperless_container
+  {
+    margin-bottom: 15%;
+  }
+
+  .paperless_container img, .paper_container img
+  {
+    margin-top: 15%;
+  }
+
+  .paperless_container .paperless_desc, .paper_container .paper_desc
+  {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .paperless_container p, .paper_container p
+  {
+    padding: 0;
+  }
+
+  .sidenav
+  {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape)
+{
+  .navbar_cover
+  {
+    height: 32%;
+  }
+}
+
+@media only screen and (max-width: 500px)
+{
+  .body_content, .wrapper
+  {
+    overflow-x: hidden;
+  }
+
+  .navbar_cover
+  {
+    height: 24%;
+  }
+
+  .paper_container
+  {
+    margin-top: 43%;
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (max-width: 400px)
+{
+  .body_content, .wrapper
+  {
+    overflow-x: hidden;
+  }
+
+  .navbar_cover
+  {
+    height: 25%;
+  }
+
+  .paper_container
+  {
+    margin-top: 45%;
+    overflow-x: hidden;
+  }
+
+  .paper_container img, .paperless_container img
+  {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 700px) and (orientation: landscape)
+{
+  .navbar_cover
+  {
+    height: 28%;
+  }
+}
