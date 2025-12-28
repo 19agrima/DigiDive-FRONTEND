@@ -6,7 +6,7 @@ html
 body
 {
   margin: 0;
-  background-color: #fafafa;
+  background-color: #3A2622;
   height: auto;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -58,6 +58,25 @@ a
   float: left;
 }
 
+/* Logo container */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Logo text */
+.logo .dive a {
+  font-family: 'Six Caps', sans-serif;   /* tall, aesthetic font */
+  font-size: 42px;                       /* controls height */
+  font-weight: 400;                      /* Six Caps only has one weight */
+  letter-spacing: 4px;
+  line-height: 1;                        /* tight vertical height */
+  color: #470000;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .sidenav
 {
   height: 100%;
@@ -66,7 +85,7 @@ a
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #fafafa;
+  background-color: #3A2622;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 40px;
@@ -80,6 +99,8 @@ a
   display: block;
   text-transform: uppercase;
   transition: color 0.5s;
+  color:rgb(245, 230, 220);
+
 }
 
 .sidenav a:hover
@@ -201,18 +222,23 @@ a
 {
   font-size: 1.2em;
   font-weight: 500;
+    color: #F7D6CF;
+
 }
 
 .faq_heading
 {
   font-size: 2em;
   font-weight: 700;
+  color:rgb(245, 230, 220)
+
 }
 
 .faq_content .sub_head
 {
   font-size: 1em;
   margin-bottom: 30px;
+  color: #F7D6CF;
 }
 
 .footer
@@ -223,6 +249,7 @@ a
   font-size: 0.7em;
   width: 90%;
   margin: 10% auto 3% auto;
+  
 }
 
 .footer-links ul

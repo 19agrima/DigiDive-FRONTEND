@@ -6,7 +6,7 @@ html
 body
 {
   margin: 0;
-  background-color: #fafafa;
+  background-color: #3A2622;
   height: auto;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -57,6 +57,24 @@ a
 {
   float: left;
 }
+/* Logo container */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Logo text */
+.logo .dive a {
+  font-family: 'Six Caps', sans-serif;   /* tall, aesthetic font */
+  font-size: 42px;                       /* controls height */
+  font-weight: 400;                      /* Six Caps only has one weight */
+  letter-spacing: 4px;
+  line-height: 1;                        /* tight vertical height */
+  color: #470000;
+  text-decoration: none;
+  display: inline-block;
+}
 
 .sidenav
 {
@@ -66,7 +84,7 @@ a
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #fafafa;
+  background-color: #3A2622;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 40px;
@@ -80,6 +98,8 @@ a
   display: block;
   text-transform: uppercase;
   transition: color 0.5s;
+  color:rgb(245, 230, 220);
+
 }
 
 .sidenav a:hover

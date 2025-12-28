@@ -6,7 +6,7 @@ html
 body
 {
   margin: 0; 
-  background-color: #f8f5f6;
+  background-color: #3A2622;
   height: auto;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -51,11 +51,31 @@ a
   animation: smoothload 1s;
   margin: auto;
   overflow-x: hidden;
+  color:#F7D6CF
+
 }
 
 .logo_icon
 {
   float: left;
+}
+/* Logo container */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Logo text */
+.logo .dive a {
+  font-family: 'Six Caps', sans-serif;   /* tall, aesthetic font */
+  font-size: 42px;                       /* controls height */
+  font-weight: 400;                      /* Six Caps only has one weight */
+  letter-spacing: 4px;
+  line-height: 1;                        /* tight vertical height */
+  color: #470000;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .sidenav
@@ -66,7 +86,7 @@ a
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #fafafa;
+  background-color: #3A2622;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 40px;
@@ -80,11 +100,13 @@ a
   display: block;
   text-transform: uppercase;
   transition: color 0.5s;
+  color:rgb(245, 230, 220);
+
 }
 
 .sidenav a:hover
 {
-  color: #9D3017;
+  color:rgb(245, 230, 220);
   transition: color 0.5s;
 }
 
@@ -120,6 +142,7 @@ a
   left: 5%;
   width: 90%;
   z-index: 1000;
+  
 }
 
 .active, .current, .now
@@ -195,6 +218,7 @@ a
 .shop_content
 {
   margin: 25% auto 0 auto;
+  color: rgb(245, 230, 220);
 }
 
 .shop_content .category_1, .shop_content .category_2, .shop_content .category_3
@@ -203,6 +227,7 @@ a
   justify-content: center;
   flex-wrap: wrap;
   transition: 0.5s;
+  
 }
 
 .category_1 .prod_1, .category_1 .prod_2, .category_1 .prod_3, .category_1 .prod_4, .category_1 .prod_5,
@@ -514,7 +539,7 @@ a
     padding: 18px;
     position: relative;
     z-index: 2;
-    background-color: beige;
+    background-color:#F7D6CF;
     }
     .product-grid .title{
     font-size: 16px;
